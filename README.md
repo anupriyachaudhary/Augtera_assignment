@@ -24,7 +24,7 @@ Time Complexity = O(n)
 #### 2. Scrabble
 - Using an hash map for storing the values and doing look up is O(n^2) complexity.
 - But if we implement a suffix array then it will be O(n)+O(m*largestSizeOf(Pattern)) , where m = no. of patterns and n = size of string
-So, if O(m*largestSizeOf(Pattern)) << O(n^2), suffix array would have been a better option
+- So, if O(m*largestSizeOf(Pattern)) << O(n^2), suffix array would have been a better option
 
 #### 3. IPAddressClustering
 - Used a trie like structure to store the IP addresses and corresponding traffic
