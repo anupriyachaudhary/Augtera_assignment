@@ -4,7 +4,7 @@
     $dotnet build
     $dotnet run file_path
 
-    (requires .NET core SDK 2.1 to run)
+    (requires .NET core SDK 2.1 to run: https://dotnet.microsoft.com/download/dotnet-core/2.1)
 
 #### 2. Scrabble
     $python Scrabble.py value_file_path dictionary_path
